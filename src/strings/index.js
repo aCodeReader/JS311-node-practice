@@ -1,13 +1,12 @@
 const split = (str, delim) => {
  
-  str.split(delim)
+ return str.split(delim)
   // write code for strings.split
 
 }
 
 const pairs = (str) => {
-  for(let i = 0; i < str.length; i+2)
-   return str.split("")
+   return str.match(/(..?)/g)
   // write code for strings.pairs
 
 }
